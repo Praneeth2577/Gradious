@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gradious - Praneeth</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h3><span>g</span> Gradious</h3>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="#" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="project-embed">
+    <div class="block1">
+        <iframe src="about:blank" width="100%" height="100%" 
+            style="border:1px solid #ccc; border-radius: 10px; background-image: url('/api/placeholder/640/480'); background-size: cover; background-position: center;"></iframe>
+        </div>
+            <div class="block2">
+        <h2>Aadhaar OCR Project using Tesseract Library</h2>
+        <p>The Aadhaar OCR project is a sophisticated document processing system I developed to automatically extract and validate information from Aadhaar cards, which are India's primary identification documents. This project demonstrates my expertise in computer vision, OCR technologies, and data processing pipelines.
+
+            The frontend of the application was built using React.js with a clean, user-friendly interface that allows users to upload Aadhaar card images or PDFs. The styling was implemented with CSS and Bootstrap to ensure responsiveness across various devices. On the backend, I utilized Python with Flask to create a robust API that handles image processing, data extraction, and validation.
+            
+            The core OCR functionality was implemented using the Tesseract library, which I optimized specifically for Aadhaar card recognition by fine-tuning parameters and implementing custom pre-processing techniques to enhance text detection accuracy. Additionally, I integrated OpenCV for image processing tasks such as deskewing, noise reduction, and contrast enhancement before passing the images to the OCR engine.
+            
+            For data storage and management, the system uses PostgreSQL to securely store extracted information while maintaining compliance with privacy regulations. The entire application is containerized using Docker for consistent deployment across different environments.
+        </p>
+            
+           <p> <b>Key features of the Aadhaar OCR Project include: </b></p>
+            <ul style="padding-left: 20px;">
+           <li> High Accuracy Text Extraction: Customized OCR pipeline achieving over 95% accuracy in extracting Aadhaar details.</li>
+            
+           <li>Data Validation: Automated verification of extracted information using checksum algorithms and pattern matching.</li>
+            
+            <li> Privacy Protection: Masked display and encrypted storage of sensitive information in compliance with data protection standards.</li>
+            
+                <li>Batch Processing: Capability to process multiple documents simultaneously, improving efficiency for organizational use.</li>
+            
+                    <li> Admin Dashboard: Comprehensive analytics and monitoring interface to track processing statistics and system performance.</li>
+        </ul>
+            This project showcases my ability to combine multiple technologies to create practical solutions for real-world document processing challenges while maintaining strict security and privacy standards.</p>
+    </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+        <a href="https://www.linkedin.com/in/praneeth-varma-indukuri-86144a228/" target="_blank"><i class="fas fa-times"></i></a>
+        <a href="https://github.com/Praneeth2577" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <p>&copy; Gradious Technologies Pvt Ltd - 2024</p>
+  </footer>
+</body>
+</html>
